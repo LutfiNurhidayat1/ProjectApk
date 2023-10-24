@@ -13,6 +13,7 @@ _illustration about bussy time;_
 - Target user : pelajar, pekerja kantoran dan pembisnis yang memiliki banyak agenda rapat, mahasiswa untuk mengatur jadwal kelas dan sejenisnya.
 - User experience theme : Mmiliki petunjuk penggunaan aplikasi dan antarmuka yang tidak terlalu ribet dan berdempetan untuk mempermudah pengguna menggunakannya. Menggunakan warna yang lumayan mencolok untuk mepermudah pengguna menggunakan aplikasi.
 - _contoh:_ 
+ 
 ![Antar Muka](https://p.apk4fun.com/55/05/62/com.icemediacreative.timetable-0.webp)
 
 # 2) User Story
