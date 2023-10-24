@@ -26,11 +26,13 @@ Prioritas ke- | Keinginan penguna | Tujuan
 5 | Dapat melihat jadwal di layar depan tanpa perlu mebuka aplikasi | Mempermudah dan menghemat waktu dalam melihat jadwal.
 
 ---
-title: TES
+title: Order example
 ---
 erDiagram
-    ABC ||--o{ OER : places
-    DEF ||--|{ LINE : contains
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+
  
 
 
