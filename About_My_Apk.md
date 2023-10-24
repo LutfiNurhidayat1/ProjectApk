@@ -29,13 +29,17 @@ Prioritas ke- | Keinginan penguna | Tujuan
 
 ```mermaid
 flowchart TD
-    N1[[PENGGUNA]] --> |Memasukan waktu dan nama/judul|N2[[JADWAL]] --> |Otomatis menyetel alarm sesuai waktu yang telah di tentukan|N3[[ALARM]] --> |Alarm berbunyi|N4[[WAKTU DARI JADWAL TELAH TIBA]] 
+subgraph
+    N1[[PENGGUNA]] --> |Memasukan waktu dan nama/judul|N2[[JADWAL]] --> |Otomatis menyetel alarm sesuai waktu yang telah di tentukan|N3[[ALARM]] --> |Alarm berbunyi|N4[[WAKTU DARI JADWAL TELAH TIBA]]
+end
 ```
 # 4) Arsitektur Sistem
  
  ```mermaid
 flowchart TD
+subgraph
     D1[(DATABASE : SQLite)] <--> B2{{BACKEND : KOTLIN - ANDROID ARCHITECTURE COMPONENT}} <--> A3[/APLIKASI ANDROID - KOTLIN\]
+end
 ```
 
 
