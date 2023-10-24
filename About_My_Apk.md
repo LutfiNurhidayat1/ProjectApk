@@ -25,13 +25,12 @@ Prioritas ke- | Keinginan penguna | Tujuan
 4 | Mendapat alarm pengingat bahwa ada jadwal pada waktu yang telah di tetapkan | Mengingatkan bahwa ada jadwal pada waktu tersebut.
 5 | Dapat melihat jadwal di layar depan tanpa perlu mebuka aplikasi | Mempermudah dan menghemat waktu dalam melihat jadwal.
 
----
-title: Order example
----
+```mermaid
 erDiagram
     CUSTOMER ||--o{ ORDER : places
     ORDER ||--|{ LINE-ITEM : contains
     CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+
 
  
 
