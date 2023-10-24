@@ -26,10 +26,8 @@ Prioritas ke- | Keinginan penguna | Tujuan
 5 | Dapat melihat jadwal di layar depan tanpa perlu mebuka aplikasi | Mempermudah dan menghemat waktu dalam melihat jadwal.
 
 ```mermaid
-erDiagram
-    CUSTOMER ||--o{ ORDER : places
-    ORDER ||--|{ LINE-ITEM : contains
-    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+flowchart TD
+    N1[[PENGGUNA]] --> |Memasukan waktu dan nama/judul|N2[[JADWAL]] --> |Otomatis menyetel alarm sesuai waktu yang telah di tentukan|N3[[ALARM]] --> |Alarm berbunyi|N4[[WAKTU DARI JADWAL TELAH TIBA]] 
 
 
  
