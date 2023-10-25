@@ -11,7 +11,7 @@ _illustration about bussy time;_
 - Tagline : Don't let your scedule run away!
 - Campaign : Membuat aplikasi yang dapat mengingatkan agenda dari pengguna secara efektif, sehingga pengguna tidak melewatkan agendanya.
 - Target user : pelajar, pekerja kantoran dan pembisnis yang memiliki banyak agenda rapat, mahasiswa untuk mengatur jadwal kelas dan sejenisnya.
-- User experience theme : Mmiliki petunjuk penggunaan aplikasi dan antarmuka yang tidak terlalu ribet dan berdempetan untuk mempermudah pengguna menggunakannya. Menggunakan warna yang lumayan mencolok untuk mepermudah pengguna menggunakan aplikasi.
+- User experience theme : Memiliki petunjuk penggunaan aplikasi dan antarmuka yang tidak terlalu ribet dan berdempetan untuk mempermudah pengguna menggunakannya. Menggunakan warna yang lumayan mencolok untuk mepermudah pengguna menggunakan aplikasi.
 - _contoh:_ 
  
 ![Antar Muka](https://p.apk4fun.com/55/05/62/com.icemediacreative.timetable-0.webp)
@@ -42,6 +42,8 @@ subgraph ARSITEKTUR SISTEM
     D1[(DATABASE : SQLite)] <--> B2{{BACKEND : KOTLIN - ANDROID ARCHITECTURE COMPONENT}} <--> A3[/APLIKASI ANDROID - KOTLIN\]
 end
 ```
+# 5) Teknologi, Library, dan Framework
+
 
 
 
