@@ -43,7 +43,17 @@ subgraph ARSITEKTUR SISTEM
 end
 ```
 # 5) Teknologi, Library, dan Framework
-
-
-
-
+### 5.1 Teknologi
+-Bahasa pemrograman Kotlin
+-Android SDK
+### 5.2 Library
+-AndroidX Library
+-Room Database
+-Retrofit 
+### 5.3 Framework
+-Android Jetpack
+-Firebase
+# 6) UX Design
+![ux](https://drive.google.com/uc?id=1iw7Ui83VHu3912CU_rJCRZyHZctei-KK)
+# 7) Demonstrasi vidio
+#### [Link Youtube](https://youtu.be/Yn7rfGuUnFQ)
